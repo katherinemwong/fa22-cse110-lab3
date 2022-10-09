@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/shark.jpeg"/>
+    <title> Meeting Minutes</title>
+  </head>
+  <body>
+    <header>
+        <div> Links to other things</div>
+        <nav>
+            <ul>
+                <li><a href="#Attendance">Attendance List</a></li>
+                <li><a href="#Agenda">Agenda</a></li>
+                <li><a href="#Media">Media</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h1>Meeting Notes</h1>
+        <hr>
+        <h2>Brainstorm session</h2>
+            <p><span>Katherine:</span> Our app should have a nice design!<br>
+            <span>Helen:</span> I think our app should target a <em>younger audience</em>.<br>
+            <span>Tyler:</span> We should name our app <i>Icon</i>.</p>
+        <h3>Tasks (order by priority)</h3>
+            <ol>
+                <li>Sketch Design</li>
+                <li>Code Design</li>
+            </ol>
+    </main>
+    <section>
+        <details>
+            <summary>Questions/concerns</summary>
+            <b>Design:</b> What <strong>color palette</strong> should we design our app on?
+        </details>
+    </section>
+    <hr>
+    <img src="img/color-palette.png">
+
+    <section>
+        <form>
+            <fieldset>
+                <legend>Mark Attendance</legend>
+                <input type="checkbox" id="yes">
+                <label for="yes">Yes</label><br>
+                <input type="checkbox" id="no">
+                <label for="no">No</label><br>
+            </fieldset>
+            <label for="comments">Suggestions?</label><br>
+            <textarea id="comment" rows="5" cols="33">I suggest... </textarea><br>
+            <label for="team-role">Choose a role:</label>
+            <input list="role" id="team-role" name="team-role">
+            <datalist id="role">
+                <option value="designer">
+                <option value="teamlead">
+                <option value="frontend">
+                <option value="backend">
+            </datalist><br>
+
+            <label for="meal">Choose a favorite meal:</label><br>
+
+            <select name="mealtime" id="meal">
+                <option value="">--Choose an option--</option>
+                <option value="Breakfast">Breakfast</option>
+                <option value="Lunch">Lunch</option>
+                <option value="Dinner">Dinner</option>
+            </select>
+            <button>Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>Contact us on slack<br>
+            Meeting minutes total: 60min
+        </p>    
+    </footer>
+  </body>
+</html>
