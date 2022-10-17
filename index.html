@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="img/shark.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <title> Meeting Minutes</title>
+    <style>
+        body {
+            background-color: linen;
+        }
+    </style>
   </head>
   <body>
-    <header>
-        <div> Links to other things</div>
+    <header id="myheader">
+        <div class="container"> Navigation</div>
         <nav>
             <ul>
                 <li><a href="#Attendance">Attendance List</a></li>
@@ -15,12 +24,11 @@
                 <li><a href="#Media">Media</a></li>
             </ul>
         </nav>
-
     </header>
     <main>
-        <h1>Meeting Notes</h1>
+        <h1 style="color:rgb(100,100,100);">Meeting Notes</h1>
         <hr>
-        <h2>Brainstorm session</h2>
+        <h2 class="highlight">Brainstorm session</h2>
             <p><span>Katherine:</span> Our app should have a nice design!<br>
             <span>Helen:</span> I think our app should target a <em>younger audience</em>.<br>
             <span>Tyler:</span> We should name our app <i>Icon</i>.</p>
@@ -81,6 +89,10 @@
         </form>
     </section>
     <footer>
+        <ul>
+            <li>Turtles</li>
+            <li>Bugs</li>
+        </ul>
         <p>Contact us on slack<br>
             Meeting minutes total: 60min
         </p>    
