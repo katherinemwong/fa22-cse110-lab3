@@ -1,0 +1,108 @@
+* {
+    background: linen;
+}
+header {
+    position: sticky;
+    top:20px;
+}
+h2 {
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+/*  Invisible */
+.container {
+    display: none;
+    height: 40mm;
+    width: 400px;
+    background-color: white;
+}
+#myheader {
+    color:green;
+}
+button:hover {
+    color:red;
+}
+button:active{
+    color:white;
+}
+h3 {
+    display: inline;
+    color: hsl(0, 0%, 0%);
+    margin-bottom:auto;
+    padding: 1rem;
+    margin: 1em 1em 1em 1em;
+    text-align: center;
+
+}
+img, video {
+    max-height: 500px;
+    max-width: 200px;
+}
+
+li:hover{
+    color: white;
+}
+
+/* Navigation bar */
+nav {
+    position: static;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    border-width: 1px;
+    border-radius: 0.5cm;
+    border-style: solid;
+    border-color: black;    
+    margin: auto;
+    padding: 1ex 1ex 1ex 1ex;
+    background-color:white;
+    color: black;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap:10px;
+}
+
+footer {
+    display: block;
+
+    position: static;
+}
+
+@media (max-width: 1250px) {
+
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a[href="#Attendance"]{
+    color: red;
+}
+
+p span {
+    color:blue;
+}
+
+ol > li {
+    color: red;
+}
+h2~form {
+    color:brown;
+}
+
+ul+p{
+    border-style: solid;
+    border-color: black;  
+}
+
+h2.highlight{
+    background-color:yellow;
+}
+
